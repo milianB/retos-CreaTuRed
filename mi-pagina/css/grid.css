@@ -1,0 +1,247 @@
+a{
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  padding: 13px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+h3{
+  padding: 15px;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-size: 27px
+}
+
+[class*="poema-"]{
+  margin-top: 20px;
+  padding: 50px;
+}
+
+.container-poe{
+  padding: 30px;
+}
+.poema-1{
+
+}
+
+.redes > p{
+  text-align: center;
+}
+.padding{
+  padding: 30px;
+}
+.padding > p{
+  margin-top: 20px;
+  text-align: center;
+}
+
+.r1 > a:hover{
+  background: gold;
+  width: 30%;
+}
+
+.font-one{
+  font-family: 'Fjalla One', sans-serif;
+  padding: 5px;
+
+}
+
+.font-muli{
+  font-family: 'Muli', sans-serif;
+  font-size: 13px;
+  color: black;
+}
+
+.r1 > a{
+  display: block;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+p{
+  font-family: 'Muli', sans-serif;
+  font-size: 18px;
+}
+
+li > a{
+  color: black;
+  padding: 15px;
+}
+.menu-home{
+  margin-left: -65px;
+}
+.prueba{
+  padding: 31px;
+}
+
+.anton-font{
+  font-family: 'Anton', sans-serif;
+  font-size: 15px;
+  text-align: center;
+}
+
+.dosis-font{
+  font-family: 'Dosis', sans-serif;
+}
+
+.prof-des{
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.business-name{
+  margin-top: 132px;;
+  background-color: black;
+}
+
+.logo{
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  margin-right: 77px;
+}
+
+.hd{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: #F3B6A6;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  padding: 0px 37px
+}
+
+.icon-right{
+  width: 85px;
+  vertical-align: text-top;
+  border-radius: 50%;
+}
+
+.icon-logo{
+  width: 85px;
+  vertical-align: text-top;
+  border-radius: 10px;
+}
+
+.menu-bar{ /* none */
+  flex-basis: 100%;
+  align-items: center;
+  float: right;
+}
+
+.menu-home > li{
+  display: inline;
+}
+
+.search{
+  font-size: 11px;
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: inline;
+  float: right;
+  padding: 13px;
+  font-family: 'Muli', sans-serif;
+  font-weight: bold;
+  letter-spacing: 9px;
+  width: 442px;
+}
+
+.white{
+  color: white;
+}
+
+.col-8 > h3{
+  padding: 16px;
+  text-align: center;
+}
+
+.bio{
+    background-image: url("../images/bio.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.col-8{
+  background-color: white;
+  padding: 30px;
+
+  padding-left: 60px;
+}
+
+.col-4{
+  background-color: white;
+  padding-left: 60px;
+}
+.col-4 > h3{
+  padding: 15px
+}
+
+.col-4 > p{
+  margin-top: 10px;
+  margin-left: -25px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.container-contac{
+  border: 1px solid black;
+  margin-bottom: -47px;
+}
+.profile-pic{
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  float: right;
+  margin-right: 15px;
+  margin-top: 60px;
+}
+
+@media (max-width: 768px) {
+    .col-8{
+    width: 100%;
+  }
+    .col-4{
+      width: 100%;
+    }
+}
+
+li:hover{
+  background-color: #D5B0D7;
+  padding: 10px;
+}
+
+nav{
+  background-image: url("../images/bc-1.png");
+  background-size: 100%;
+}
+
+.poema-1 > input{
+  font-size: 17px;
+  padding: 2px 19px 2px 19px;
+  margin-left: 170PX;
+  margin-top: : 39px;+.
+}
+
+
+@media (max-width: 768px) {
+  .img-100{
+    width: 300px;
+    margin-left: 100px;
+    border-radius: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .profile-pic{
+    margin-right: 91px;
+    margin-top: 60px;
+}
+  .search{
+    display: none;
+}
